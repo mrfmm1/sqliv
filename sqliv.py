@@ -33,7 +33,7 @@ def singlescan(url):
             return result
 
         else:
-            print ""  # move carriage return to newline
+            print("  # move carriage return to newline")
             std.stdout("no SQL injection vulnerability found")
             option = std.stdin("do you want to crawl and continue scanning? [Y/N]", ["Y", "N"], upper=True)
 
